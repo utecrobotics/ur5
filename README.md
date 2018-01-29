@@ -1,6 +1,8 @@
 ur5
 ===
 
+[![Build Status](https://travis-ci.org/utecrobotics/ur5.svg?branch=master)](https://travis-ci.org/utecrobotics/ur5)
+
 ROS packages for the UR5 Robot with a Robotiq gripper
 
 ## Installation
