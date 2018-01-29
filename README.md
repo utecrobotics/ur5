@@ -48,4 +48,4 @@ An example of sending joints values to the robot can be executed as follows:
   ```
   $ rosrun ur5_gazebo send_joints.py
   ```
-To change the values of the joints, the file send_joints.py must be modified.
+To change the values of the joints, the file `send_joints.py` must be modified.
