@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Launch file parameters -->
+  <arg name="paused"      default="true"/>
+  <arg name="debug"       default="false"/>
+  <arg name="gui"         default="true"/>
+  <arg name="rate"        default="125" />
+  
+  <!-- Startup simulated world -->
+  <include file="$(find ur5_gazebo)/launch/ur5_setup.launch">
+    <arg name="world_name"  value="$(find ur5_gazebo)/worlds/ur5_cubes.world"/>
+    <arg name="paused"      value="$(arg paused)"/>
+    <arg name="debug"       value="$(arg debug)"/>
+    <arg name="gui"         value="$(arg gui)"/>
+  </include>
+  
+</launch>
