@@ -34,6 +34,9 @@ To simulate the robot launch the following:
   ```
   $ roslaunch ur5_gazebo ur5_cubes.launch
   ```
+You should see something similar to the following picture:
+[Image of UR5](ur5_images/ur5_cubes.png)
+
 By default the simulation stats paused. Unpause the simulation. You can then send commands to the
 joints or to the gripper.
 
